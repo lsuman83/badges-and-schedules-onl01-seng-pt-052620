@@ -39,4 +39,3 @@ def printer (attendees)
   
 end
 
-printer(attendees)
