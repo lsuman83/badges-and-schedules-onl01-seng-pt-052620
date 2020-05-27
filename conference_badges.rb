@@ -16,6 +16,8 @@ def batch_badge_creator (badges)
      index += 1
   end
   
+  name_badge
+  
 end
 
 def assign_rooms (rooms)
