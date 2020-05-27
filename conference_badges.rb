@@ -27,6 +27,8 @@ def assign_rooms (rooms)
 
 end
 
+require "pry"
+
 def printer (attendees)
   
   batch_badge_creator(attendees).each do |badge|
