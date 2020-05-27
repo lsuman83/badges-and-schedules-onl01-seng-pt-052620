@@ -20,8 +20,8 @@ def assign_rooms (rooms)
   
   index = 0
   
-  rooms.each do |name|
-    rooms [index] = "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+  rooms.each do |room|
+    rooms [index] = "Hello, #{room}! You'll be assigned to room #{index + 1}!"
     index += 1
   end
 
@@ -33,8 +33,8 @@ def printer (attendees)
     puts "#{badge}"
   end
   
-  assign_rooms(attendees).each do |room|
-    puts "#{room}"
+  assign_rooms(attendees).each do |room_filled|
+    puts "#{room_filled}"
   end
   
 end
