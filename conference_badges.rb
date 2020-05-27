@@ -37,9 +37,9 @@ def printer (attendees)
     puts "#{badge}"
   end
   
- # assign_rooms(attendees).each do |room_filled|
-  #  puts "#{room_filled}"
-  #end
+  assign_rooms(attendees).each do |room_filled|
+    puts "#{room_filled}"
+  end
   
 end
 
