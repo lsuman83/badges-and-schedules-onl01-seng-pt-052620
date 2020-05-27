@@ -16,7 +16,7 @@ def batch_badge_creator (badges)
      index += 1
   end
   
-  name_badge
+  return name_badge
   
 end
 
