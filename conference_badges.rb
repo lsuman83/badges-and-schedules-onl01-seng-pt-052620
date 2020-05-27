@@ -27,13 +27,13 @@ def assign_rooms (rooms)
 
 end
 
-def printer
+def printer (attendees)
   
-  batch_badge_creator(badges).each do |badge|
+  batch_badge_creator(attendees).each do |badge|
     puts badge
   end
   
-  assign_rooms(rooms).each do |room|
+  assign_rooms(attendees).each do |room|
     puts room
   end
   
