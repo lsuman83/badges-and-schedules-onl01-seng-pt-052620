@@ -7,7 +7,7 @@ def batch_badge_creator (badges)
   
   index = 0
   badges.each do |names|
-     badge[index] = "Hello, my name is #{names}."
+     badges[index] = "Hello, my name is #{names}."
      index += 1
   end
 end
