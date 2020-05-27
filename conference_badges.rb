@@ -4,7 +4,10 @@ def badge_maker (name)
 end
 
 def batch_badge_creator (badges)
+  
+  index = 0
   badges.each do |names|
-    puts "Hello, my name is #{names}."
+     badge[index] = "Hello, my name is #{names}."
+     index += 1
   end
 end
